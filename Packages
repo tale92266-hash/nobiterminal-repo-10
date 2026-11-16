@@ -1,0 +1,639 @@
+Package: apache2
+Architecture: aarch64
+Installed-Size: 33124
+Maintainer: @termux
+Version: 1:2.4.71-1
+Homepage: https://httpd.apache.org
+Breaks: apache2-dev
+Depends: apr, apr-util, libandroid-support, libcrypt, libnghttp2, libuuid, openssl, pcre2, zlib
+Replaces: apache2-dev
+Description: Apache Web Server
+Filename: ./apache2_1:2.4.71-1_aarch64.deb
+Size: 5493560
+MD5sum: d9e3ca95d3aada59d64a5a0f8b90531e
+SHA1: 4c91eb3e6ae004548344ecfd35cbda3eae0a3a51
+SHA256: 1682ebbcf61d6e26351c51f62e1f1926932ea95d7a51e55e0cdb637d5f20018a
+
+Package: aspnetcore-runtime-8.0
+Architecture: aarch64
+Installed-Size: 11104
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-8.0
+Description: ASP.NET Core 8.0 Runtime
+Filename: ./aspnetcore-runtime-8.0_8.0.34-1_aarch64.deb
+Size: 2860088
+MD5sum: 202730291c664eb5b94eec8a59e16c8b
+SHA1: e04899c35b14158b7bc993c3bad56dd228cc88fa
+SHA256: 85f5d531ed4eaccc4e0dd7721cb90e8b7e5cea6024faa2e8c9056203b5ac37eb
+
+Package: aspnetcore-runtime-dbg-8.0
+Architecture: aarch64
+Installed-Size: 11436
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-8.0
+Description: ASP.NET Core 8.0 Runtime Managed Debug Symbols
+Filename: ./aspnetcore-runtime-dbg-8.0_8.0.34-1_aarch64.deb
+Size: 6726640
+MD5sum: ab2a73d8be327cc77bb0b50f6ab2830a
+SHA1: b124d2e9a5c0ef9731ba0d75033497f7f4920636
+SHA256: 55b261b12e7005680e42a43b8deab513431ac13c32b8c482cd4305ae9ceb97e8
+
+Package: aspnetcore-targeting-pack-8.0
+Architecture: aarch64
+Installed-Size: 15696
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: ASP.NET Core 8.0 Targeting Pack
+Filename: ./aspnetcore-targeting-pack-8.0_8.0.34-1_aarch64.deb
+Size: 1743216
+MD5sum: 51debe8769975e4938ab700ea2c257fe
+SHA1: 76d3dd2c24cb76f6d29208d6b47dfeb697ca4e97
+SHA256: 0a05b3542a407e1a7723eb5266f59129b91a248e19b13e146e9bae356682fc85
+
+Package: autoconf-archive
+Architecture: all
+Installed-Size: 4620
+Maintainer: @termux
+Version: 2026.11.11-1
+Homepage: https://www.gnu.org/software/autoconf-archive/
+Description: A collection of freely re-usable Autoconf macros
+Filename: ./autoconf-archive_2026.11.11-1_all.deb
+Size: 402848
+MD5sum: e5a1f7af375778de83948c725620adea
+SHA1: 9259a961edca5cad6dbffbbbbc11ed918c007755
+SHA256: 1b25e4332045633619b71e0e91ed8673e2c7cbb961a775f9788099a88cfac001
+
+Package: cargo-binstall
+Architecture: aarch64
+Installed-Size: 16008
+Maintainer: @termux
+Version: 1.27.0-1
+Homepage: https://github.com/cargo-bins/cargo-binstall
+Depends: resolv-conf
+Description: Tool to fetch and install precompiled musl-based static binaries from the Rust ecosystem
+Filename: ./cargo-binstall_1.27.0-1_aarch64.deb
+Size: 4990020
+MD5sum: f07304052fc00d9a8085d077c041c053
+SHA1: b9f95b4792facb704c6a6b3f77e793908e115143
+SHA256: cc140ed05a4634efc2783afb10e07fabbbb15cfc452fe781cc97daa180c5cff3
+
+Package: dnscontrol
+Architecture: aarch64
+Installed-Size: 158232
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Version: 5.8.1-1
+Homepage: https://dnscontrol.org/
+Description: Infrastructure as code for DNS!
+Filename: ./dnscontrol_5.8.1-1_aarch64.deb
+Size: 21417496
+MD5sum: 78d34ef7b5d289c4fd54b8a4f0957e38
+SHA1: 1b08736c57ce8e1a711e8ba08771b423cdd7e786
+SHA256: 5a582d49f2336f050b57fd482705b4f2744d64d9351919e58ffc523972d1a2a6
+
+Package: docker-compose
+Architecture: aarch64
+Installed-Size: 31216
+Maintainer: @termux
+Version: 5.7.1-1
+Homepage: https://github.com/docker/compose
+Depends: docker-cli
+Description: Compose is a tool for defining and running multi-container Docker applications.
+Filename: ./docker-compose_5.7.1-1_aarch64.deb
+Size: 7276868
+MD5sum: 41cce340c887fe67c284ffb8b65cd8f7
+SHA1: 4ce2070d023aa8276453429221363740a17be4ee
+SHA256: 793456e2cb8fc7da4d70666b7be32cc9c8aec1a1ff14b9647e48347fba1dacee
+
+Package: dotnet-apphost-pack-8.0
+Architecture: aarch64
+Installed-Size: 2720
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Targeting Pack
+Filename: ./dotnet-apphost-pack-8.0_8.0.34-1_aarch64.deb
+Size: 395052
+MD5sum: 4e3f857eafb8d80858f9a64365630ab1
+SHA1: 7c221ca062ebb97ba6a1a1504c79e0653468bf46
+SHA256: 9825d42364c4d416e820526ee7d6f5fb1bc32478b78dd688a07b1c7a8eaa8a98
+
+Package: dotnet-host-8.0
+Architecture: aarch64
+Installed-Size: 744
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Host
+Filename: ./dotnet-host-8.0_8.0.34-1_aarch64.deb
+Size: 213832
+MD5sum: 7267d550d9107d6ca4109c5ae9935a97
+SHA1: 8c14c51c17108dc6b4c128c20c73409c8e8f1790
+SHA256: 2fd6388b43ff54e771bab15ddcab47d1b60c100f5509783437b5c322d5bd507d
+
+Package: dotnet-hostfxr-8.0
+Architecture: aarch64
+Installed-Size: 884
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 8.0 Host Resolver
+Filename: ./dotnet-hostfxr-8.0_8.0.34-1_aarch64.deb
+Size: 219148
+MD5sum: 580d2141dcb8991ca67dec44ffd7c916
+SHA1: 82770a625dc166830059d8520c0a3c057e593c35
+SHA256: 4ea64e433204c7af7b7c5e707c381ba59eea077349abc698b5736ea9757a591b
+
+Package: dotnet-runtime-8.0
+Architecture: aarch64
+Installed-Size: 32788
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-hostfxr-8.0, libicu, openssl, zlib
+Description: .NET 8.0 Runtime
+Filename: ./dotnet-runtime-8.0_8.0.34-1_aarch64.deb
+Size: 8221588
+MD5sum: 4bf20d98addd3b9ea12d95532b4f3376
+SHA1: a50abfbc7d8bed4971ed32bfcfa14a61657f8372
+SHA256: 514e81d0c906df459462a5b851eeb1787c57586fe5a54a0c354ace291c14241b
+
+Package: dotnet-runtime-dbg-8.0
+Architecture: aarch64
+Installed-Size: 20952
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-8.0
+Description: .NET 8.0 Runtime Managed Debug Symbols
+Filename: ./dotnet-runtime-dbg-8.0_8.0.34-1_aarch64.deb
+Size: 15261980
+MD5sum: 36bead7ac9ddb1e2d30645e7795a3132
+SHA1: 691f70a965d0560c22c8322287546ee8eb192892
+SHA256: ca41b078d7951e87ecd02f03be399e73e585992edb01117475f133491445330f
+
+Package: dotnet-targeting-pack-8.0
+Architecture: aarch64
+Installed-Size: 36400
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 8.0 Targeting Pack
+Filename: ./dotnet-targeting-pack-8.0_8.0.34-1_aarch64.deb
+Size: 2782272
+MD5sum: 1a837e83a9a12f163ea97c5e84a79b7a
+SHA1: a2313df6efc44a1b2261769935678834daca28f4
+SHA256: 4254dcbb5b7ba508f3171836d4caa63754bcf22017374950d2232f279f0ee81c
+
+Package: dotnet-templates-8.0
+Architecture: aarch64
+Installed-Size: 5884
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 8.0 Templates
+Filename: ./dotnet-templates-8.0_8.0.34-1_aarch64.deb
+Size: 2174144
+MD5sum: 871c76b44604fc6d4dc69455d78dad3a
+SHA1: 5c281e525d07ceca636f61a79a622d9c94d2a071
+SHA256: 42a8106b30ecdc292bfb4e27b8f2083614632aa09ad77e5dbbc1a4ab8b9830f7
+
+Package: dotnet8.0
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0
+Suggests: dotnet-sdk-8.0
+Description: .NET 8.0
+Filename: ./dotnet8.0_8.0.34-1_aarch64.deb
+Size: 1548
+MD5sum: 8a57bc855916ddfcbf04dab0e1659717
+SHA1: 1528f9aff9a24f267e30528fcbbf335963c6b999
+SHA256: 588fb9ddbbe4d2f1a5ba776797cc09976a2bff2eef1ed03956307fe97468df4c
+
+Package: flyctl
+Architecture: aarch64
+Installed-Size: 80020
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.5.8-1
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
+Filename: ./flyctl_0.5.8-1_aarch64.deb
+Size: 17500072
+MD5sum: 4774157512fb1ff145c461db0bd665c2
+SHA1: eae8581df446048b496c89e5ad5e751053691d17
+SHA256: cefa0d73e06f0accdbdbf466a90d152f1c28d804ac3d712d93477367938a1f06
+
+Package: frei0r-plugins
+Architecture: aarch64
+Installed-Size: 4080
+Maintainer: @termux
+Version: 3.7.1-1
+Homepage: https://www.dyne.org/software/frei0r/
+Depends: libc++, libcairo
+Description: Minimalistic plugin API for video effects
+Filename: ./frei0r-plugins_3.7.1-1_aarch64.deb
+Size: 497448
+MD5sum: 9791dec6c23b2ead6e6ead2582776a54
+SHA1: 3317562335bc2afe6c03685286683c45cefd6838
+SHA256: 3fa4f1bd091b9a46f4239c8a6b9d9d414603441f139aa6619f0d4cc5d78ffde9
+
+Package: gogs
+Architecture: aarch64
+Installed-Size: 75216
+Maintainer: @termux
+Version: 0.14.4-1
+Homepage: https://gogs.io
+Depends: dash, git
+Description: A painless self-hosted Git service
+Filename: ./gogs_0.14.4-1_aarch64.deb
+Size: 20718104
+MD5sum: f17ab0feed66c285db9a6cdf6644a293
+SHA1: c4c925f12b2ce93c2eb2850ad38a7c67af874dc9
+SHA256: 633b445b59214a24f1301e8acfd04d1ad29fe285f81fb25c29c63377a3a53d74
+
+Package: jfrog-cli
+Architecture: aarch64
+Installed-Size: 66404
+Maintainer: @termux
+Version: 2.132.0-1
+Homepage: https://jfrog.com/getcli
+Description: A CLI for JFrog products
+Filename: ./jfrog-cli_2.132.0-1_aarch64.deb
+Size: 19776752
+MD5sum: 5cc59293a71ffbb727183fffc8a7c83a
+SHA1: 0eead5257d9f01b6a8c1db768496b42c6065a246
+SHA256: 94116f8d94618995fd349b33fbb00637c2aba1822e9a9cefb20b3ed152bba32b
+
+Package: jql
+Architecture: aarch64
+Installed-Size: 908
+Maintainer: @termux
+Version: 9.0.4-1
+Homepage: https://github.com/yamafaktory/jql
+Description: A JSON Query Language CLI tool
+Filename: ./jql_9.0.4-1_aarch64.deb
+Size: 344664
+MD5sum: 36b0ec7e9f4457713de95f693343be90
+SHA1: 0b1382e0ac47330dc6ef8857bd384dc8307f48eb
+SHA256: 021f8ec397ef78944f25dd42e2d89e27a875c424aa9d29980c532de11f20b0d6
+
+Package: lgogdownloader
+Architecture: aarch64
+Installed-Size: 1396
+Maintainer: @termux
+Version: 3.20-1
+Homepage: https://sites.google.com/site/gogdownloader/
+Depends: boost, jsoncpp, libc++, libcurl, libhtmlcxx, libtinyxml2, rhash, tidy
+Description: Open source downloader to GOG.com for Linux users using the same API as the official GOGDownloader
+Filename: ./lgogdownloader_3.20-1_aarch64.deb
+Size: 401988
+MD5sum: ab00a860557b456a0a3e8cf73631c254
+SHA1: a12445d46f4954f0c2e3a3027fdd7b7eef46f3e3
+SHA256: 4f19aff3767e6ccbee90c7782545bb9f67a5a4a4b8c2cd3be65d74b2df8352cd
+
+Package: libbcprov-java
+Architecture: all
+Installed-Size: 7460
+Maintainer: @termux
+Version: 1.87-1
+Homepage: https://www.bouncycastle.org/java.html
+Depends: openjdk-21
+Description: A lightweight cryptography API for Java
+Filename: ./libbcprov-java_1.87-1_all.deb
+Size: 6398460
+MD5sum: d0f95aaaa9e2f853ef7be28feb08111f
+SHA1: 71dee4310d689382196e5e12a22b0b785646433f
+SHA256: aaca4ba284fb5c4b4bc727473635ba727d7270dcbd1ecdada0b57a743dd67447
+
+Package: libjxl-progs
+Architecture: aarch64
+Installed-Size: 2352
+Maintainer: @termux
+Version: 0.13.0-1
+Homepage: https://jpegxl.info/
+Depends: giflib, imath, libandroid-glob, libandroid-spawn, libjpeg-turbo, libpng, libwebp, openexr, libjxl (= 0.13.0-1)
+Description: Programs for manipulating JPEG XL files
+Filename: ./libjxl-progs_0.13.0-1_aarch64.deb
+Size: 523348
+MD5sum: 40d1350afe4aa9bc09f7aa51faebe1d0
+SHA1: fb84fc491d218061af1113cae06d574357242e82
+SHA256: 68a1d52845ab29c37ad5d032a28ab4e5c8c3cd0f238e4a334e77f9e5dbfe7ada
+
+Package: libjxl
+Architecture: aarch64
+Installed-Size: 4556
+Maintainer: @termux
+Version: 0.13.0-1
+Homepage: https://jpegxl.info/
+Depends: brotli, giflib, glib, highway, libc++, libffi, libiconv, libjpeg-turbo, libpng, zlib
+Suggests: gdk-pixbuf
+Description: JPEG XL image format reference implementation
+Filename: ./libjxl_0.13.0-1_aarch64.deb
+Size: 993392
+MD5sum: 30ac93af5b73191746f33131a090a230
+SHA1: 3b26adc8c8fa20ea3ecae8346c53d9204322736e
+SHA256: 1242b0a196960034116a25d8c361b646f85739e93d743db24dba0a8c3f5fd957
+
+Package: libkokkos-static
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: @termux
+Version: 5.3.0-1
+Homepage: https://github.com/kokkos
+Depends: libkokkos (= 5.3.0-1)
+Description: Static libraries for libkokkos
+Filename: ./libkokkos-static_5.3.0-1_aarch64.deb
+Size: 1416
+MD5sum: a0ee130f6f21571dc63a666ae02b79c8
+SHA1: 132873944a66f71b11de96196b853c241a13f747
+SHA256: 990841bde9610ab5823c16b60e58e7c6d8ca91874804934c215f3943a1875265
+
+Package: libkokkos
+Architecture: aarch64
+Installed-Size: 7364
+Maintainer: @termux
+Version: 5.3.0-1
+Homepage: https://github.com/kokkos
+Depends: libandroid-execinfo, libc++
+Description: Implements a programming model in C++ for writing performance portable applications
+Filename: ./libkokkos_5.3.0-1_aarch64.deb
+Size: 618088
+MD5sum: f015b5b9fdc4f37a5f0569258ac71684
+SHA1: 907afa88ad527620c269913643e16892d5616859
+SHA256: 427bfdc0468dcace1ce2b8b5e1bf0c3acc7b2201b259cd5836d18a623166b5dd
+
+Package: libpluto-static
+Architecture: aarch64
+Installed-Size: 3512
+Maintainer: Komo @mbekkomo
+Version: 0.13.3-1
+Homepage: https://plutolang.github.io/
+Depends: libpluto (= 0.13.3-1)
+Description: Static libraries for libpluto
+Filename: ./libpluto-static_0.13.3-1_aarch64.deb
+Size: 424852
+MD5sum: a635b0c2e7a35c8dfaf171bc7a3d92a4
+SHA1: b8e95772c1c85bb2abc42876cc9ac1c6ffd27d4a
+SHA256: f8cd1fe815c99468465451017e8804a7cb63c2931a04ed790f90dfaff8ec50bd
+
+Package: libpluto
+Architecture: aarch64
+Installed-Size: 2288
+Maintainer: Komo @mbekkomo
+Version: 0.13.3-1
+Homepage: https://plutolang.github.io/
+Breaks: plutolang (<< 0.9.4-1)
+Depends: libc++
+Replaces: plutolang (<< 0.9.4-1)
+Description: Shared library for the Pluto interpreter
+Filename: ./libpluto_0.13.3-1_aarch64.deb
+Size: 707388
+MD5sum: 7686db8256dcdc9492edceccc2896e81
+SHA1: 1d2b7f4101225d8cfc4ac1cea5b4eba479834429
+SHA256: 27c648d68684e949856fea08b22782e45b6b4dd6923fe69f190324a00576f79c
+
+Package: libtorrent-static
+Architecture: aarch64
+Installed-Size: 55544
+Maintainer: Krishna Kanhaiya @kcubeterm
+Version: 0.16.28-1
+Homepage: https://github.com/rakshasa/rtorrent/wiki
+Depends: libtorrent (= 0.16.28-1)
+Description: Static libraries for libtorrent
+Filename: ./libtorrent-static_0.16.28-1_aarch64.deb
+Size: 6465372
+MD5sum: cc1e39066a139109cbda0ce2899ea1ad
+SHA1: 389472dee93fbd9cec08f833425e8e90753bacbc
+SHA256: 1dd1d7eec3d2b2245947ac61fd24769c9c253c43d9ff2680dbd401bd96c7358b
+
+Package: libtorrent
+Architecture: aarch64
+Installed-Size: 2252
+Maintainer: Krishna Kanhaiya @kcubeterm
+Version: 0.16.28-1
+Homepage: https://github.com/rakshasa/rtorrent/wiki
+Depends: libandroid-spawn, libc++, libcurl, openssl, resolv-conf, zlib
+Description: Libtorrent BitTorrent library
+Filename: ./libtorrent_0.16.28-1_aarch64.deb
+Size: 489804
+MD5sum: 7f8edfa09c2ac0cd727bf545cb4bd5ab
+SHA1: 082286d6fba33edd0458ae8a055edc473f431eda
+SHA256: f3126d432fb80fb41bf4f12d353c40fc4640c2450e9efc93dba2244714daa735
+
+Package: luajit-static
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 1:2.1.1794386141+g63c8f1a-1
+Homepage: https://luajit.org/
+Depends: luajit (= 1:2.1.1794386141+g63c8f1a-1)
+Description: Static libraries for luajit
+Filename: ./luajit-static_1:2.1.1794386141+g63c8f1a-1_aarch64.deb
+Size: 225908
+MD5sum: 2c1e5864d2bcb29af726bee52d0d0e29
+SHA1: 7c41851ebd032be89609c53926790921cea27a62
+SHA256: 03bf8cca14ade93227cedef8e578fd5e679561bf7df2cd9fd8add9290a4a1ef1
+
+Package: luajit
+Architecture: aarch64
+Installed-Size: 1356
+Maintainer: @termux
+Version: 1:2.1.1794386141+g63c8f1a-1
+Homepage: https://luajit.org/
+Breaks: libluajit-dev, libluajit
+Replaces: libluajit-dev, libluajit
+Description: Just-In-Time Compiler for Lua
+Filename: ./luajit_1:2.1.1794386141+g63c8f1a-1_aarch64.deb
+Size: 293828
+MD5sum: d8331ede284c6dd29b1d948f5edf2e32
+SHA1: 1d5955ebe25d98bcddc29500149c7db8de731080
+SHA256: 1055403aa9f1bd2a54ecd4848fba8861b38921fc8196e116f81eb23fa8b71364
+
+Package: mise
+Architecture: aarch64
+Installed-Size: 188744
+Maintainer: @termux
+Version: 2026.11.7-1
+Homepage: https://mise.jdx.dev/
+Depends: bzip2, openssl
+Description: dev tools, env vars, task runner
+Filename: ./mise_2026.11.7-1_aarch64.deb
+Size: 41706696
+MD5sum: e85d41740e3cd765938bee4a7a230b06
+SHA1: 74e7c713f88ffeed1e55e94ce01aff37dce14024
+SHA256: 0ba37e88518cafff0b32e28246ac43990dd336563f2ebcec660f77cc61e9230c
+
+Package: mongosh
+Architecture: aarch64
+Installed-Size: 15716
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.14.2-1
+Homepage: https://github.com/mongodb-js/mongosh
+Depends: nodejs | nodejs-lts
+Description: The MongoDB Shell
+Filename: ./mongosh_2.14.2-1_aarch64.deb
+Size: 2930408
+MD5sum: 6727ee3694c97fa4fde3bc40d93382d9
+SHA1: 496f9108e90d4ae26b5c84b5a215aab4e8d05fe8
+SHA256: c46812527f34bfaae411a7ecba0357f4ba8e1965092fa18df4a4d252c15dbe61
+
+Package: mycli
+Architecture: aarch64
+Installed-Size: 2736
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.30.4-1
+Homepage: https://mycli.net
+Depends: python, python-pip, python-cryptography, python-pycryptodomex
+Recommends: fzf
+Description: CLI for MySQL/MariaDB with auto-completion and syntax highlighting
+Filename: ./mycli_2.30.4-1_aarch64.deb
+Size: 325476
+MD5sum: 37c6943d2d5bf82a539b864724878074
+SHA1: 899c43bdbaffbd00be74b605f65bb59296df5bca
+SHA256: 28cdeb51a241e6dfe2750907267a69b4722b44ffe85a164e0a2efd969fde7c7d
+
+Package: netstandard-targeting-pack-2.1-8.0
+Architecture: aarch64
+Installed-Size: 18480
+Maintainer: @truboxl
+Version: 8.0.34-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: NETStandard.Library 2.1 Targeting Pack (.NET 8.0)
+Filename: ./netstandard-targeting-pack-2.1-8.0_8.0.34-1_aarch64.deb
+Size: 1318288
+MD5sum: 15c6e0d2d48c65f4065e018b2c646d80
+SHA1: eff2327864d7d534f4153830d19f3e085bd274ed
+SHA256: 9965274bd5b98ccb61da041a90f461c6985b9fef67f0ac8366a9f148611ed00f
+
+Package: nodejs-lts
+Architecture: aarch64
+Installed-Size: 47884
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 24.22.3-1
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib
+Conflicts: nodejs, nodejs-current
+Recommends: npm
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: ./nodejs-lts_24.22.3-1_aarch64.deb
+Size: 10001756
+MD5sum: c05c06dea9212b2c2a198a92fc0dbb61
+SHA1: 818399d3a97e6085df0d5a2d298f3624cd6ed157
+SHA256: 96b44c456fff14a3beecaef45e348e7096e2c8bcf1241b9a0dc12bfe87394149
+
+Package: nodejs
+Architecture: aarch64
+Installed-Size: 51760
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 26.13.1-1
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib, libffi
+Conflicts: nodejs-lts, nodejs-current
+Recommends: npm
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: ./nodejs_26.13.1-1_aarch64.deb
+Size: 10679744
+MD5sum: 0c0515d4e48aa85da0fedcc8f98915dc
+SHA1: 5eb5c65e7969b4d07d40954fe7359237230f2e59
+SHA256: ffc2b7ffb3a83d70017938ed138957ad8f31766ac2c8bd968faace4ee7a32488
+
+Package: php-zephir-parser
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Version: 2.11.0-1
+Homepage: https://github.com/phalcon/php-zephir-parser
+Depends: php
+Description: The Zephir Parser delivered as a C extension for the PHP language
+Filename: ./php-zephir-parser_2.11.0-1_aarch64.deb
+Size: 63016
+MD5sum: 25fe1ff88151db397deee82a2ea23ecc
+SHA1: 182e27c361511e322346d93221cb6902e8381440
+SHA256: c0b8f1ada087b760aa49f59346d3733e2b57eb80d559e37d5ea9301b71296e6d
+
+Package: plutolang
+Architecture: aarch64
+Installed-Size: 2232
+Maintainer: Komo @mbekkomo
+Version: 0.13.3-1
+Homepage: https://plutolang.github.io/
+Depends: readline, libpluto (= 0.13.3-1)
+Description: A superset of Lua 5.4 with a focus on general-purpose programming.
+Filename: ./plutolang_0.13.3-1_aarch64.deb
+Size: 632992
+MD5sum: b137b1758b2e579e7d83565cee0690e8
+SHA1: a001438f46165cc3a565e4344df7d76f80dd5f56
+SHA256: 7fae72e0929314e314e24851f04435f50e499b4bd777310713b61532d905e72b
+
+Package: rolldown
+Architecture: aarch64
+Installed-Size: 171708
+Maintainer: @termux
+Version: 1.3.2-1
+Homepage: https://rolldown.rs/
+Depends: nodejs | nodejs-lts, yuku
+Description: Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API
+Filename: ./rolldown_1.3.2-1_aarch64.deb
+Size: 24956684
+MD5sum: e985d4ec39951c573a6d9cf2b7d14801
+SHA1: d9001a7944fd9763a1319dc131ecc802ad9d835c
+SHA256: 4d661b7cfa2d29519e083025af3f6a328db42a55a8820b4e30c15379e60ddc2d
+
+Package: rtorrent
+Architecture: aarch64
+Installed-Size: 2188
+Maintainer: @termux
+Version: 0.16.28-1
+Homepage: https://rakshasa.github.io/rtorrent/
+Depends: libandroid-spawn, libc++, libcurl, libtorrent, libxmlrpc, ncurses
+Description: Ncurses BitTorrent client based on libTorrent
+Filename: ./rtorrent_0.16.28-1_aarch64.deb
+Size: 447552
+MD5sum: fe523dd7c4fd9d44b1f229e1cff59416
+SHA1: 8b8a34f8770108681160ffbfb76270787fa05568
+SHA256: 6ae420a14e9e8f76ce367b32af7488af0360ad566e899d626909dca49954c11f
+
+Package: ty
+Architecture: aarch64
+Installed-Size: 29444
+Maintainer: @termux
+Version: 0.0.101-1
+Homepage: https://github.com/astral-sh/ty
+Description: An extremely fast Python type checker and language server, written in Rust
+Filename: ./ty_0.0.101-1_aarch64.deb
+Size: 9488612
+MD5sum: fe9e1e7df07316cbc111a7d7ae8a3104
+SHA1: 46ea5eae7b705e44ab6d764993c46b0f0833f6d0
+SHA256: 4f00c3c0234bba11cbec2697c47e38dfbab73309fac5198399bd7bccbeb80eec
+
+Package: websocat
+Architecture: aarch64
+Installed-Size: 3548
+Maintainer: @termux
+Version: 1.14.2-1
+Homepage: https://github.com/vi/websocat
+Depends: openssl
+Description: Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions
+Filename: ./websocat_1.14.2-1_aarch64.deb
+Size: 968336
+MD5sum: 3f0174a3327b2ca2b97320ae81b24360
+SHA1: af19c5fb25a7f8a31c0138058c5cb38c54515ecc
+SHA256: ce73a66f26530f140f1853334be63232b70395dea01d576ab9cd658a3124f805
