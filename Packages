@@ -234,6 +234,20 @@ MD5sum: 4774157512fb1ff145c461db0bd665c2
 SHA1: eae8581df446048b496c89e5ad5e751053691d17
 SHA256: cefa0d73e06f0accdbdbf466a90d152f1c28d804ac3d712d93477367938a1f06
 
+Package: forestdb-dump
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 1.2-4
+Homepage: https://github.com/couchbase/forestdb
+Depends: libforestdb (= 1.2-4)
+Description: ForestDB dump tool
+Filename: ./forestdb-dump_1.2-4_aarch64.deb
+Size: 106068
+MD5sum: 07fbc002cc013932450d53d8bdb94c76
+SHA1: db370fb9ee38c83ae29e181a8dafd07a27f8c26d
+SHA256: 89eea5bb6a1bb43f8d7f056771371cbd2236f0132b562ce263996eb8ad6fc254
+
 Package: frei0r-plugins
 Architecture: aarch64
 Installed-Size: 4080
@@ -315,6 +329,20 @@ Size: 6398460
 MD5sum: d0f95aaaa9e2f853ef7be28feb08111f
 SHA1: 71dee4310d689382196e5e12a22b0b785646433f
 SHA256: aaca4ba284fb5c4b4bc727473635ba727d7270dcbd1ecdada0b57a743dd67447
+
+Package: libforestdb
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: @termux
+Version: 1.2-4
+Homepage: https://github.com/couchbase/forestdb
+Depends: libsnappy
+Description: A key-value storage engine
+Filename: ./libforestdb_1.2-4_aarch64.deb
+Size: 130088
+MD5sum: a07b34bdf3ef5b0e6c60527eca6886f7
+SHA1: e900c545531e5715283099c1d7e792235b1d2830
+SHA256: d38d2e81226de37fce16dde0b0f90a74403f1678e2caf20dd307216bb7a59b90
 
 Package: libjxl-progs
 Architecture: aarch64
