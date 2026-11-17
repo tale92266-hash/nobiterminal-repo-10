@@ -552,6 +552,20 @@ MD5sum: 791cd6d867ee03cd05531fd906d503ed
 SHA1: 010613e6226f855ccfe6d52ff6fb13a3f0f05bb4
 SHA256: e45033f201f3f48bcdf56ac8086839a2f1d56116e872feb94a3a9da077ee42e1
 
+Package: gitea
+Architecture: aarch64
+Installed-Size: 127048
+Maintainer: @termux
+Version: 28.4.0-1
+Homepage: https://gitea.io
+Depends: dash, git
+Description: Git with a cup of tea, painless self-hosted git service
+Filename: ./gitea_28.4.0-1_aarch64.deb
+Size: 33424796
+MD5sum: 3c487054377d5b7d192b175d2cfd3049
+SHA1: 11a2f005a8673341719e30d0bd14902965cb08f9
+SHA256: 65c6e7f47b081018a4a0a516bf07af014781f86503a467b208f01e0249ac3866
+
 Package: gogs
 Architecture: aarch64
 Installed-Size: 75216
