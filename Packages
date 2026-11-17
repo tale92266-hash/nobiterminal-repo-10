@@ -14,6 +14,36 @@ MD5sum: d9e3ca95d3aada59d64a5a0f8b90531e
 SHA1: 4c91eb3e6ae004548344ecfd35cbda3eae0a3a51
 SHA256: 1682ebbcf61d6e26351c51f62e1f1926932ea95d7a51e55e0cdb637d5f20018a
 
+Package: apr-util-static
+Architecture: aarch64
+Installed-Size: 324
+Maintainer: @termux
+Version: 1.6.6-1
+Homepage: https://apr.apache.org/
+Depends: apr-util (= 1.6.6-1)
+Description: Static libraries for apr-util
+Filename: ./apr-util-static_1.6.6-1_aarch64.deb
+Size: 69396
+MD5sum: 343f3086d2fcc809b55085b0daf453d4
+SHA1: 24f61c883eaab9da36212df04c463132917dac80
+SHA256: db3ec47e474b318d1a5d075482f5a662311bbba96225657a9f6c4a1964eba3b3
+
+Package: apr-util
+Architecture: aarch64
+Installed-Size: 588
+Maintainer: @termux
+Version: 1.6.6-1
+Homepage: https://apr.apache.org/
+Breaks: apr-util-dev
+Depends: apr, libcrypt, libexpat, libiconv, libuuid
+Replaces: apr-util-dev
+Description: Apache Portable Runtime Utility Library
+Filename: ./apr-util_1.6.6-1_aarch64.deb
+Size: 112192
+MD5sum: 0e5389fe5ff155028e831a845ab763c6
+SHA1: 1832b938a5b3b5972fcac679d7fc1f0536a20149
+SHA256: 076efb06a8b0e5cd00cab233970b5516e28d081331ee0ee9372e98ee9a9d8c9a
+
 Package: aspnetcore-runtime-8.0
 Architecture: aarch64
 Installed-Size: 11104
@@ -110,6 +140,20 @@ MD5sum: e5a1f7af375778de83948c725620adea
 SHA1: 9259a961edca5cad6dbffbbbbc11ed918c007755
 SHA256: 1b25e4332045633619b71e0e91ed8673e2c7cbb961a775f9788099a88cfac001
 
+Package: automake
+Architecture: all
+Installed-Size: 2944
+Maintainer: @termux
+Version: 1.20-1
+Homepage: https://www.gnu.org/software/automake/
+Depends: autoconf
+Description: Tool for automatically generating Makefile.in files
+Filename: ./automake_1.20-1_all.deb
+Size: 590348
+MD5sum: 532228353b3707d036ca39ed63980938
+SHA1: 2f381e7bbaa588b372ed4493b2287d3a2112578e
+SHA256: c0f02ceaf4b729ab2f868dfc9b282da6cca8378295defaa63d252d80f66ad633
+
 Package: azure-cli
 Architecture: aarch64
 Installed-Size: 128028
@@ -123,6 +167,47 @@ Size: 3545216
 MD5sum: c3c61d6893671fc3566712bbecf6bab9
 SHA1: 00dfdc31c35b5b2c2994011bd7c65edd247183db
 SHA256: 1f0b29d300dca7511436e37933734307d8738735a6c8e8c78f2e6a76462f7ee8
+
+Package: botan3-static
+Architecture: aarch64
+Installed-Size: 51216
+Maintainer: @termux
+Version: 3.14.1-1
+Homepage: https://botan.randombit.net/
+Depends: botan3 (= 3.14.1-1)
+Description: Static libraries for botan3
+Filename: ./botan3-static_3.14.1-1_aarch64.deb
+Size: 4953204
+MD5sum: cf3efc6eb06ead08a0430f33ef4177c5
+SHA1: 97efe35d2d088672627d28b30673beaeb5a47c12
+SHA256: abf4e9eca1156dec0c8c0dc9472242b99cbbe4f1642c75b163e4000ce4839308
+
+Package: botan3
+Architecture: aarch64
+Installed-Size: 12940
+Maintainer: @termux
+Version: 3.14.1-1
+Homepage: https://botan.randombit.net/
+Depends: libbz2, libc++, liblzma, libsqlite, zlib
+Description: Crypto and TLS for Modern C++
+Filename: ./botan3_3.14.1-1_aarch64.deb
+Size: 2746884
+MD5sum: 0ceea16f7e06b225559ed5448816f5dd
+SHA1: c566b8dbd5c5d9116ae50a1df3cbe863b1ab336e
+SHA256: 399132976e4bd010a63d84bb911604272f562474d0fc64120a18e34f8541af08
+
+Package: cabextract
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: @termux
+Version: 1.12-1
+Homepage: https://www.cabextract.org.uk/
+Description: A program to extract Microsoft cabinet (.CAB) files
+Filename: ./cabextract_1.12-1_aarch64.deb
+Size: 28096
+MD5sum: a88a61296add8f8f4e288214355972cf
+SHA1: 2d66b93142cfa89459c993d6d861ef857ab34de7
+SHA256: d3f16207121c38f59bce9beeb1e935bc85ee45af267a60f25d7760d799e816ab
 
 Package: cargo-binstall
 Architecture: aarch64
@@ -150,6 +235,34 @@ Size: 1308304
 MD5sum: 5587fd4657d3a39abff44f4000db3bdb
 SHA1: 37e879cfa9fe2a53fbae00c3759175f5a06adb64
 SHA256: ee1c72ee48aa4ccbf4943cadd476d4bc88c11ea8d7a6138b38056da8fea968ec
+
+Package: cfengine-static
+Architecture: aarch64
+Installed-Size: 8200
+Maintainer: @termux
+Version: 1:3.29.0-1
+Homepage: https://cfengine.com/
+Depends: cfengine (= 1:3.29.0-1)
+Description: Static libraries for cfengine
+Filename: ./cfengine-static_1:3.29.0-1_aarch64.deb
+Size: 1515236
+MD5sum: 378804757ea153d68cc85ee2bffc666a
+SHA1: 6b88d79e08ae37ae77b06d606aababecdb1b69ab
+SHA256: 522bb2391a873d2e791f54e4ef1285aa8623f15b17c229447e56dc4cc9c10580
+
+Package: cfengine
+Architecture: aarch64
+Installed-Size: 6192
+Maintainer: @termux
+Version: 1:3.29.0-1
+Homepage: https://cfengine.com/
+Depends: libandroid-glob, liblmdb, librsync, libxml2, libyaml, openssl, pcre2
+Description: CFEngine is a configuration management technology
+Filename: ./cfengine_1:3.29.0-1_aarch64.deb
+Size: 975608
+MD5sum: c2463030993788f56ef3616f4e99893f
+SHA1: 2d60f6053a4dd6a99e2a9bc2be233430f47b5fe8
+SHA256: ddc892f6934aa38052c593229b790c3a14cbb1c857ea6a1a5564d8e545bcdbe3
 
 Package: cloudflared
 Architecture: aarch64
@@ -208,6 +321,22 @@ MD5sum: a09c343197c18aec837ac74350b8e7be
 SHA1: c0398755ee5411cee62064c4e7ac5e0881368aca
 SHA256: 903f73f242afce05445ae2c2ec050b7abb6f80a2fb804bb14d70beddb42b3e04
 
+Package: dbus
+Architecture: aarch64
+Installed-Size: 1740
+Maintainer: @termux
+Version: 1.16.4-1
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-dev
+Depends: libexpat, libx11
+Replaces: dbus-dev
+Description: Freedesktop.org message bus system
+Filename: ./dbus_1.16.4-1_aarch64.deb
+Size: 428156
+MD5sum: f34806ac4c6d8ad9e0910970aca2d9e9
+SHA1: b7a92679e7de644910832e0a6cbeaf2d36d163ac
+SHA256: 1f843b501eab9dfbba103cc2b3629c619c3c109cedd21df07955e81f50af52f7
+
 Package: discordo
 Architecture: aarch64
 Installed-Size: 25552
@@ -247,6 +376,19 @@ MD5sum: 367fa89f536909a8fc11e35d77aebad6
 SHA1: 506241fac45458c5ed3ec11a47044fa9cb16f531
 SHA256: 657c0480abeb236f23d0a7d2718d5737667dc8467026e98d758ad05afb50574f
 
+Package: dnscontrol
+Architecture: aarch64
+Installed-Size: 159252
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Version: 5.9.0-1
+Homepage: https://dnscontrol.org/
+Description: Infrastructure as code for DNS!
+Filename: ./dnscontrol_5.9.0-1_aarch64.deb
+Size: 21543620
+MD5sum: 58d00194de7a47f57263f6b1c45c9f95
+SHA1: a8790d8becdbfd2e7f931ac946b5c6b96cda0a88
+SHA256: 6a8acd2b9b4c5142960446a2dfeca33d7b420d62a2011dd9ae4c6633c8dee9cf
+
 Package: docker-compose
 Architecture: aarch64
 Installed-Size: 31216
@@ -273,6 +415,20 @@ Size: 8946744
 MD5sum: 22962ae1b4b3dd0e5b35089b6210382d
 SHA1: c54d59ba667a8bb40f2e3dd158f1e1cc8eb16973
 SHA256: 3bdc5ba04a876f6e106401949db645fb1de22859456ef3c8b210596eed032a28
+
+Package: dopewars
+Architecture: aarch64
+Installed-Size: 752
+Maintainer: @termux
+Version: 1.7.0-1
+Homepage: https://dopewars.sourceforge.io
+Depends: glib, libcurl, ncurses
+Description: Drug-dealing game set in streets of New York City
+Filename: ./dopewars_1.7.0-1_aarch64.deb
+Size: 252244
+MD5sum: e377327abb6b896082860bb1364e1fd1
+SHA1: 0d7573bd14265dc99abd8135cd520bd75108ab5b
+SHA256: aba89827e71d888a768db6e6ef3f15e3df5bbdbefb76114cc8dcba68c720a76c
 
 Package: dotnet-apphost-pack-8.0
 Architecture: aarch64
@@ -398,6 +554,21 @@ MD5sum: 7d5149508b21b9eb7819d9ba56577dc7
 SHA1: 09b96a7f923061bab38f7d4119afcbb2eaf92c35
 SHA256: 8241dcf7e34bee4666e17e5fe6e787df59ef7c37cf7969f0b08127d66840b576
 
+Package: electrum
+Architecture: all
+Installed-Size: 21276
+Maintainer: @termux
+Version: 4.8.4-1
+Homepage: https://electrum.org
+Depends: python, libsecp256k1, python-pip, python-cryptography
+Conflicts: asciinema (<< 1.4.0-1)
+Description: Electrum is a lightweight Bitcoin wallet
+Filename: ./electrum_4.8.4-1_all.deb
+Size: 5328884
+MD5sum: c0f187b6437a972314901c8e1f27359b
+SHA1: e8216111d12d509424567fbb371e9ff1f3c02a78
+SHA256: fa7a612b449e69cdd5487042d19932e458a8a055011c2291b7763c7a0d239cbc
+
 Package: exiftool
 Architecture: all
 Installed-Size: 18560
@@ -454,6 +625,20 @@ MD5sum: ab4c514f8e9e382b742a0058b7bed114
 SHA1: f13d0d12628775a00c7a184f6ec92c3ba8795369
 SHA256: d1a20e73673ebdd90c4501a6cadc7d626718eddc4ac05321033d860721159cd2
 
+Package: flex-static
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: @termux
+Version: 2.6.16-1
+Homepage: https://github.com/westes/flex
+Depends: flex (= 2.6.16-1)
+Description: Static libraries for flex
+Filename: ./flex-static_2.6.16-1_aarch64.deb
+Size: 1912
+MD5sum: b9d1fb3cc742ed5392d2eb595a7b4f1d
+SHA1: b8b452a88c4cb89a3f3a10024a0bd77cbeea7ab5
+SHA256: 88bc039712c77d20c5c62499ed9073a9245f626b5611b0b495cdefdfa61d3733
+
 Package: flex
 Architecture: aarch64
 Installed-Size: 1264
@@ -470,6 +655,22 @@ MD5sum: 668d3e91b35082cbd553b3472059f920
 SHA1: f5d586f96cc82e4a3e3b9929c86f0b16352704e4
 SHA256: 0557f65370588db9b0a0e891b7ceeb2d48e785a71b2444a52ad7f18cb37dcafe
 
+Package: flex
+Architecture: aarch64
+Installed-Size: 1268
+Maintainer: @termux
+Version: 2.6.16-1
+Homepage: https://github.com/westes/flex
+Depends: m4
+Conflicts: flex-dev
+Replaces: flex-dev
+Description: Fast lexical analyser generator
+Filename: ./flex_2.6.16-1_aarch64.deb
+Size: 249952
+MD5sum: 76d9f8e2c4d4bc1c5270ea6eed688cc1
+SHA1: 8cf796d917b57c9adb380c8b20fb9f32f1197059
+SHA256: aa7409328d2e08bc941e617d23950f63e8e42ca81565cabc3033dcd5529df447
+
 Package: flyctl
 Architecture: aarch64
 Installed-Size: 80032
@@ -485,6 +686,19 @@ SHA256: 38cfb7b2b55755bf212dbe8c1e3662b0a7cc99f599310af16b3fe0ccd9fd8094
 
 Package: flyctl
 Architecture: aarch64
+Installed-Size: 80112
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.5.11-1
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
+Filename: ./flyctl_0.5.11-1_aarch64.deb
+Size: 17534612
+MD5sum: 296395b86687da9c627a9ebc536dd1df
+SHA1: 7169940793796bf5cec5b7ae8ce402e844d6c809
+SHA256: 5905dc971f412ed4b4100e14a0c2312714d2ad2450f87da494be4af4635dd40d
+
+Package: flyctl
+Architecture: aarch64
 Installed-Size: 80020
 Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
 Version: 0.5.8-1
@@ -495,6 +709,20 @@ Size: 17500072
 MD5sum: 4774157512fb1ff145c461db0bd665c2
 SHA1: eae8581df446048b496c89e5ad5e751053691d17
 SHA256: cefa0d73e06f0accdbdbf466a90d152f1c28d804ac3d712d93477367938a1f06
+
+Package: fmt
+Architecture: aarch64
+Installed-Size: 876
+Maintainer: @termux
+Version: 1:12.2.1-1
+Homepage: https://fmt.dev/latest/index.html
+Depends: libc++
+Description: Open-source formatting library for C++
+Filename: ./fmt_1:12.2.1-1_aarch64.deb
+Size: 183584
+MD5sum: 1c054882db5f41d4f9e80e76d0ca33fb
+SHA1: f8e39c4341edc74f5ca4df79bb482da598ffb195
+SHA256: 05594d20b7af753214627b6195e5516bb6537270fe033028413e765cd89c4b74
 
 Package: forestdb-dump
 Architecture: aarch64
@@ -524,6 +752,19 @@ MD5sum: 9791dec6c23b2ead6e6ead2582776a54
 SHA1: 3317562335bc2afe6c03685286683c45cefd6838
 SHA256: 3fa4f1bd091b9a46f4239c8a6b9d9d414603441f139aa6619f0d4cc5d78ffde9
 
+Package: fresh-editor
+Architecture: aarch64
+Installed-Size: 52808
+Maintainer: @termux
+Version: 0.5.9-1
+Homepage: https://getfresh.dev/
+Description: Text editor for your terminal: easy, powerful and fast
+Filename: ./fresh-editor_0.5.9-1_aarch64.deb
+Size: 12771752
+MD5sum: b5946fe87d2d35b74faea14dbfb5c769
+SHA1: 7fc8b15d2d8b32557ee8a0868e3e852142b548a0
+SHA256: 18d16e9d46a0fc7f79ba45d099b1433382604c9d963603e06a994db7c4de6f11
+
 Package: gecode
 Architecture: aarch64
 Installed-Size: 23732
@@ -552,6 +793,20 @@ MD5sum: 791cd6d867ee03cd05531fd906d503ed
 SHA1: 010613e6226f855ccfe6d52ff6fb13a3f0f05bb4
 SHA256: e45033f201f3f48bcdf56ac8086839a2f1d56116e872feb94a3a9da077ee42e1
 
+Package: git-sizer
+Architecture: aarch64
+Installed-Size: 4164
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 1.6.0-1
+Homepage: https://github.com/github/git-sizer
+Depends: git
+Description: Compute various size metrics for a Git repository
+Filename: ./git-sizer_1.6.0-1_aarch64.deb
+Size: 1205200
+MD5sum: d7046acb87574ea8c82de08439396051
+SHA1: e5b8b2160b14b4e7b60773f7d6bbd49db8a48648
+SHA256: 6516fc94a14f2df0d251d15d526630db90d78942ad82bdedd44c44baea05bb32
+
 Package: gitea
 Architecture: aarch64
 Installed-Size: 127048
@@ -579,6 +834,20 @@ Size: 20718104
 MD5sum: f17ab0feed66c285db9a6cdf6644a293
 SHA1: c4c925f12b2ce93c2eb2850ad38a7c67af874dc9
 SHA256: 633b445b59214a24f1301e8acfd04d1ad29fe285f81fb25c29c63377a3a53d74
+
+Package: gomuks
+Architecture: aarch64
+Installed-Size: 24396
+Maintainer: @termux
+Version: 26.11-1
+Homepage: https://go.mau.fi/gomuks
+Depends: libolm, resolv-conf
+Description: A terminal Matrix client written in Go
+Filename: ./gomuks_26.11-1_aarch64.deb
+Size: 6098476
+MD5sum: f4c4185c855d197670cb35581e491da2
+SHA1: 32f292d79dec43abe92eb7fe9387e08249f8d27c
+SHA256: cf770fa2c9d28ae1fa2bce41a368c3fc885f143eea8e45fb49aeaeb2241b32dc
 
 Package: goose
 Architecture: aarch64
@@ -646,6 +915,20 @@ MD5sum: df5183decea2aeb6cafe08faf658a89a
 SHA1: 210d11695219086110ea73796890b3313cd08318
 SHA256: b601ae75a17490ff6051196b29c1f3c38e56de759e09e6c354e0e7787846f029
 
+Package: hk
+Architecture: aarch64
+Installed-Size: 25852
+Maintainer: @termux
+Version: 2.13.0-1
+Homepage: https://hk.jdx.dev/
+Depends: git, zlib
+Description: A tool for managing git hooks
+Filename: ./hk_2.13.0-1_aarch64.deb
+Size: 6724944
+MD5sum: 6ccada3f2f900c7949295e843ee01b17
+SHA1: 0890b92906b412b34505f5f4a3697912a7c59b84
+SHA256: 0a492403293edb1373202e1a2b0f952a94a838d097f7485b3b4f260a260b2278
+
 Package: hugo
 Architecture: aarch64
 Installed-Size: 64884
@@ -659,6 +942,36 @@ Size: 14133600
 MD5sum: 33d0a5ced80d8fbf0d622cfacb788f57
 SHA1: 462dd77d2f5c3b62d4702691cd040fe53e0851d3
 SHA256: 181f9bafd698f816c54e6cec5d806bb7368fa3c59daa688bb6f49c480d510060
+
+Package: imagemagick-static
+Architecture: aarch64
+Installed-Size: 9972
+Maintainer: @termux
+Version: 7.1.2.36-1
+Homepage: https://www.imagemagick.org/
+Depends: imagemagick (= 7.1.2.36-1)
+Description: Static libraries for imagemagick
+Filename: ./imagemagick-static_7.1.2.36-1_aarch64.deb
+Size: 1963868
+MD5sum: e339cb37f80e78003d7fd5a1e0ce26c7
+SHA1: c5dc617d5bccb4c8b3e7686359ca45298bf077dc
+SHA256: e9f68975510fb0579a2391dfe4facd089c87d766678d8f427a78590dcb5a2001
+
+Package: imagemagick
+Architecture: aarch64
+Installed-Size: 6980
+Maintainer: @termux
+Version: 7.1.2.36-1
+Homepage: https://www.imagemagick.org/
+Breaks: imagemagick-dev, imagemagick-x
+Depends: djvulibre, fftw, fontconfig, freetype, gdk-pixbuf, ghostscript, glib, graphviz, harfbuzz, imath, jbig2dec, libandroid-support, libbz2, libc++, libcairo, libheif, libjpeg-turbo, libjxl, liblqr, libltdl, liblzma, libpng, libraqm, libraw, librsvg, libtiff, libwebp, libx11, libxext, libxml2, libzip, littlecms, openexr, openjpeg, pango, zlib
+Replaces: imagemagick-dev, imagemagick-x
+Description: Suite to create, edit, compose, or convert images in a variety of formats
+Filename: ./imagemagick_7.1.2.36-1_aarch64.deb
+Size: 1858764
+MD5sum: 4b78e5328adfb8c126b057004aa9c6fa
+SHA1: 30228dc508e280177cd2b03b8f50b896bb7bf83d
+SHA256: 90cefeb9517133bcde278daaf89cbb0584c001aa5d3a4bde8b0502f1183b7f79
 
 Package: imlib2-static
 Architecture: aarch64
@@ -702,6 +1015,20 @@ MD5sum: fa317cfbf3849b715bf0a1611496df92
 SHA1: d0434735a6b900226cda4bd9de7a3b1205a0e0b6
 SHA256: fd1fa7363c07be6cada128a7b1f8fb2c8136794acb61ac00fc165a07cd913d2e
 
+Package: inotify-tools-static
+Architecture: aarch64
+Installed-Size: 24460
+Maintainer: @termux
+Version: 4.26.285-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Depends: inotify-tools (= 4.26.285-1)
+Description: Static libraries for inotify-tools
+Filename: ./inotify-tools-static_4.26.285-1_aarch64.deb
+Size: 4267004
+MD5sum: a0045877d17909cd22affb6562ac7385
+SHA1: 9b250c7555cdf727dcc1efb765dcb8c137dbc54e
+SHA256: b577c707e2179f2e2156b366387eb12eba131d09b46eb0c0eca28e3719badfaf
+
 Package: inotify-tools
 Architecture: aarch64
 Installed-Size: 1264
@@ -714,6 +1041,19 @@ Size: 291876
 MD5sum: c78aac0059adf5f5bcea0e863e636003
 SHA1: 28241df5bf59469ccee7ae2672096febf8e3fd8c
 SHA256: d673cd7007bdee8b3800e037a6054c0d1576a7bb7fcd217d70e28aa59b9e2cfb
+
+Package: inotify-tools
+Architecture: aarch64
+Installed-Size: 1264
+Maintainer: @termux
+Version: 4.26.285-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Description: Programs providing a simple interface to inotify
+Filename: ./inotify-tools_4.26.285-1_aarch64.deb
+Size: 291780
+MD5sum: 8243e5886c4695217f365497a7d8008d
+SHA1: f712bcc1d6510cbea13d66ab332789603d62e7f8
+SHA256: 3715d9ed6c6361806397638fdf0461d669f51e61c8ffa9dbacb2efa1a4b26674
 
 Package: jfrog-cli
 Architecture: aarch64
@@ -836,6 +1176,63 @@ MD5sum: 8d50bd4271d7df1e32d76fc491383e85
 SHA1: b82d6167ccbbbb4c2131af9a7634a240186dd2e3
 SHA256: bbc142a7219b1847095d2e65a2ace84f1fb98ad100084e2efc868ef2760b29c0
 
+Package: libepubgen-static
+Architecture: aarch64
+Installed-Size: 1980
+Maintainer: @termux
+Version: 0.1.2-1
+Homepage: https://sourceforge.net/projects/libepubgen/
+Depends: libepubgen (= 0.1.2-1)
+Description: Static libraries for libepubgen
+Filename: ./libepubgen-static_0.1.2-1_aarch64.deb
+Size: 183916
+MD5sum: c61ddf1624ac3319317350aad65d3786
+SHA1: c95244700fa83d65eb7d6ca30f0632ba55ca61fb
+SHA256: a1c2efb46bb2d6e3be22157e9fde8b516c299fe2ca00a064c913ab7ed7158b9c
+
+Package: libepubgen
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: @termux
+Version: 0.1.2-1
+Homepage: https://sourceforge.net/projects/libepubgen/
+Depends: librevenge
+Description: an EPUB generator for librevenge
+Filename: ./libepubgen_0.1.2-1_aarch64.deb
+Size: 94168
+MD5sum: 9d464c8d8474c6b4b3fa31b2500e55e8
+SHA1: a6e6f3eeee26e12a6996866a054e3e562401f485
+SHA256: 73140ff15ea1662a5bc9558f97a4a87805c1b3bcbe46f52c2e10d4fed9b2d342
+
+Package: libffi-static
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 3.8.1-1
+Homepage: https://sourceware.org/libffi/
+Depends: libffi (= 3.8.1-1)
+Description: Static libraries for libffi
+Filename: ./libffi-static_3.8.1-1_aarch64.deb
+Size: 17280
+MD5sum: 88928fb08d6beb194ce890fc90e5a0e7
+SHA1: 9f17923224d4afbde46e534e4460b60308f677bb
+SHA256: eda1db80d2673c18b9ca049e19a2202f769a479efb5ec4ce979dbcc115457b56
+
+Package: libffi
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 3.8.1-1
+Homepage: https://sourceware.org/libffi/
+Breaks: libffi-dev
+Replaces: libffi-dev
+Description: Library providing a portable, high level programming interface to various calling conventions
+Filename: ./libffi_3.8.1-1_aarch64.deb
+Size: 35804
+MD5sum: 5c90c83a8040624131435657ef3ecc85
+SHA1: 31329d50e5d7fdc83df8f37c60cb810698928b63
+SHA256: 3d0578e3679099300d24deac2757bd519f3236b9d409da702c5a02329402970a
+
 Package: libforestdb
 Architecture: aarch64
 Installed-Size: 424
@@ -923,6 +1320,62 @@ MD5sum: f015b5b9fdc4f37a5f0569258ac71684
 SHA1: 907afa88ad527620c269913643e16892d5616859
 SHA256: 427bfdc0468dcace1ce2b8b5e1bf0c3acc7b2201b259cd5836d18a623166b5dd
 
+Package: libnats-c-static
+Architecture: aarch64
+Installed-Size: 1048
+Maintainer: @termux
+Version: 3.15.0-1
+Homepage: https://nats-io.github.io/nats.c/
+Depends: libnats-c (= 3.15.0-1)
+Description: Static libraries for libnats-c
+Filename: ./libnats-c-static_3.15.0-1_aarch64.deb
+Size: 191912
+MD5sum: fb759ffc3615f502843609a75f8ec54f
+SHA1: 817f16556cf256e09e0044c92c80946e1d148a31
+SHA256: 6c9b7f4140a64d048c77f5554c4ee152b7ad607c6dc82754c258846c1d4379d8
+
+Package: libnats-c
+Architecture: aarch64
+Installed-Size: 1060
+Maintainer: @termux
+Version: 3.15.0-1
+Homepage: https://nats-io.github.io/nats.c/
+Depends: libprotobuf-c, openssl
+Description: A C client for the NATS messaging system
+Filename: ./libnats-c_3.15.0-1_aarch64.deb
+Size: 249584
+MD5sum: 3be1f576414ea2d5861110b208e81147
+SHA1: 810647c1c5ea33b4f225f16afba7c1aaadcc2701
+SHA256: 62db50a4d639346dc6e1d06214f0e1527e017864f6509f6b5d3b06e233c259ef
+
+Package: libodfgen-static
+Architecture: aarch64
+Installed-Size: 3428
+Maintainer: @termux
+Version: 0.1.9-1
+Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
+Depends: libodfgen (= 0.1.9-1)
+Description: Static libraries for libodfgen
+Filename: ./libodfgen-static_0.1.9-1_aarch64.deb
+Size: 347640
+MD5sum: 292b4fa4579a980584d06612d0e647fd
+SHA1: 09f66b4e8585d0f80a8c2e46a50d5e51d8643097
+SHA256: ee9979e9ea932e7260ae4a226d5d08b26c1163e5331451e119ab73ed72a42026
+
+Package: libodfgen
+Architecture: aarch64
+Installed-Size: 824
+Maintainer: @termux
+Version: 0.1.9-1
+Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
+Depends: libxml2, librevenge, liblangtag, zlib
+Description: Library for generating documents in Open Document Format
+Filename: ./libodfgen_0.1.9-1_aarch64.deb
+Size: 197184
+MD5sum: 37a8e8cfe1d56abea58e3aa2979ef94d
+SHA1: 126859734067324969f9738c6388b4647ee131dc
+SHA256: f6e7fad60ed75f11b7f486860370db45d2b3310f5e81ab5e4bc74b564b0eb32a
+
 Package: libpluto-static
 Architecture: aarch64
 Installed-Size: 3512
@@ -952,6 +1405,38 @@ Size: 707388
 MD5sum: 7686db8256dcdc9492edceccc2896e81
 SHA1: 1d2b7f4101225d8cfc4ac1cea5b4eba479834429
 SHA256: 27c648d68684e949856fea08b22782e45b6b4dd6923fe69f190324a00576f79c
+
+Package: libpq-static
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: @termux
+Version: 18.7-1
+Homepage: https://www.postgresql.org
+Depends: libpq
+Breaks: postgresql-static (<< 18.2-1)
+Replaces: postgresql-static (<< 18.2-1)
+Description: Static library for libpq
+Filename: ./libpq-static_18.7-1_aarch64.deb
+Size: 76248
+MD5sum: 880db8570923c3f59a8136b149b4ebc4
+SHA1: c2d9faafe1e1231381a86bc9e944bc748d2006c4
+SHA256: 87ca6f87583ea72c42a611ea611d36f7dafe210c0d10ea2de8a5c6cb36d5f10a
+
+Package: libpq
+Architecture: aarch64
+Installed-Size: 356
+Maintainer: @termux
+Version: 18.7-1
+Homepage: https://www.postgresql.org
+Depends: openssl
+Breaks: postgresql (<< 18.2-1)
+Replaces: postgresql (<< 18.2-1)
+Description: PostgreSQL client library (libpq) without the server
+Filename: ./libpq_18.7-1_aarch64.deb
+Size: 103064
+MD5sum: 91291b383f6896e45da7b7cba5635f61
+SHA1: 08e4f5f477e4e1c310f655dad26e7436c8a352ae
+SHA256: 062f29f795eb01d0c32730f15a8875ac8291d8fc31327a8829b8e33e7bc5cffc
 
 Package: libsimdutf
 Architecture: aarch64
@@ -1020,6 +1505,34 @@ Size: 21192
 MD5sum: c017cb360eb2fe48272b6ef47095f53d
 SHA1: 0a79fef74bf426fcab33984b664ad5e3dffd2959
 SHA256: f1127a56835c2de425389a292fdf2ed1e609463924253bb96563b2fa6642751c
+
+Package: libvisio-static
+Architecture: aarch64
+Installed-Size: 4236
+Maintainer: @termux
+Version: 0.1.12-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
+Depends: libvisio (= 0.1.12-1)
+Description: Static libraries for libvisio
+Filename: ./libvisio-static_0.1.12-1_aarch64.deb
+Size: 374852
+MD5sum: ad0f08dfd9a32663578ab301ad75e257
+SHA1: 86ec96fe68ac334015e334edf93ef2665fa1cb1e
+SHA256: 8e62182aee21b7602855f6c2347a2715287b19abb55c919cb54a32f6698b470a
+
+Package: libvisio
+Architecture: aarch64
+Installed-Size: 900
+Maintainer: @termux
+Version: 0.1.12-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
+Depends: libxml2, libicu, librevenge
+Description: Library providing ability to interpret and import visio diagrams
+Filename: ./libvisio_0.1.12-1_aarch64.deb
+Size: 179664
+MD5sum: ba7292eed9d0da7870bf4bee65c35a98
+SHA1: 2b36c79bbf0deedfdc40a0206dc739bb85c18c63
+SHA256: a94b9ade8dc1cc1572d829efc2c8d40fe46177ae6dfd951e56f4ea5cf871efbd
 
 Package: llama-cpp-backend-opencl
 Architecture: aarch64
@@ -1125,6 +1638,20 @@ MD5sum: 87256cd774f3cf05d74dd20cb537adeb
 SHA1: e910c6bcf8bee8f38c24cb12540ad1a1b8d798f9
 SHA256: d59f3f6a420e56b52c57756d6e27cc8dad9c5d05fdce6979b29ce884a9b3d404
 
+Package: mautrix-whatsapp
+Architecture: aarch64
+Installed-Size: 34556
+Maintainer: @termux
+Version: 26.11-1
+Homepage: https://maunium.net/go/mautrix-whatsapp/
+Depends: libolm
+Description: A Matrix-WhatsApp puppeting bridge
+Filename: ./mautrix-whatsapp_26.11-1_aarch64.deb
+Size: 7919504
+MD5sum: 545f32661e8f3ebf2d4735ccff13d99a
+SHA1: 4882d4a05ee3a2eb178b24d451d7733db20b5a1a
+SHA256: ab74fb5683c2b892d11765733567dc0a05b8ca6a9a50071a64d1315fd6cbb4d3
+
 Package: maven
 Architecture: aarch64
 Installed-Size: 11348
@@ -1165,6 +1692,35 @@ Size: 12302920
 MD5sum: b5782ef49ad5b05f11d8067b19208a79
 SHA1: f9fc73cd7489414378fbe91f158fb649605c4019
 SHA256: db1b62a83c089466f18ffcfacf1eeb1cef018d54ac6b616bbca02db3c2b5f94c
+
+Package: miniupnpc-static
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 2.3.5-1
+Homepage: https://miniupnp.tuxfamily.org/
+Depends: miniupnpc (= 2.3.5-1)
+Description: Static libraries for miniupnpc
+Filename: ./miniupnpc-static_2.3.5-1_aarch64.deb
+Size: 22600
+MD5sum: e446e7c6537d708b6ff44cd01f0d5390
+SHA1: c546ac72ecfeefc16bc5afca57c325701c74739f
+SHA256: d4bd32f060debb318667c5f6eb120e833e4787b3d90e8a6faa486e94e599b782
+
+Package: miniupnpc
+Architecture: aarch64
+Installed-Size: 392
+Maintainer: @termux
+Version: 2.3.5-1
+Homepage: https://miniupnp.tuxfamily.org/
+Breaks: miniupnpc-dev
+Replaces: miniupnpc-dev
+Description: Small UPnP client library and tool to access Internet Gateway Devices
+Filename: ./miniupnpc_2.3.5-1_aarch64.deb
+Size: 50912
+MD5sum: bcd578131320c662364b45a58615a84c
+SHA1: 797a71736bcb1583e59e90b4bf809a1dda34b19c
+SHA256: 17403b3716c48383981dbf697be125594de0b8f95570fca39d6c9096de4bbcfd
 
 Package: mise
 Architecture: aarch64
@@ -1270,6 +1826,22 @@ MD5sum: 76a47cf3d22147b5f513c99ff2f26a63
 SHA1: 4ba6f6bbb684d972321f9bb36f1a7abffb933290
 SHA256: 395a6e9816f5cd0f4592a814b2d71ae740ffab1882dde7e742917853d64a95ea
 
+Package: neovim-nightly
+Architecture: aarch64
+Installed-Size: 33964
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.13.0~dev-2122+g4ef4bed584-1
+Homepage: https://neovim.io/
+Breaks: neovim
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim-nightly)
+Filename: ./neovim-nightly_0.13.0~dev-2122+g4ef4bed584-1_aarch64.deb
+Size: 6274884
+MD5sum: 8cb94db2fc0a27ffd27649f0d986c7d6
+SHA1: 45145b494f2b1ff3ff1cb24cbf5d086f2ff4f054
+SHA256: 1b3e0dd4f7282f393bbfa55171131b4f32fd528d7486370921f0af589dc2f499
+
 Package: netstandard-targeting-pack-2.1-8.0
 Architecture: aarch64
 Installed-Size: 18480
@@ -1362,6 +1934,22 @@ Size: 5528832
 MD5sum: 77eac121510222b910046617c50c7dce
 SHA1: 415177713b3e5a0d8578b1891c3d3fe8cb29bdb0
 SHA256: 05e228fc5291aa8f66dda6b172da354ffe3cf82b7c24e5b3fdf08581835ec6c8
+
+Package: openexr
+Architecture: aarch64
+Installed-Size: 4912
+Maintainer: @termux
+Version: 3.5.4-1
+Homepage: https://www.openexr.com/
+Depends: imath, libc++, zlib
+Conflicts: openexr2
+Replaces: openexr2
+Description: Provides the specification and reference implementation of the EXR file format
+Filename: ./openexr_3.5.4-1_aarch64.deb
+Size: 900452
+MD5sum: 227ad86a4076a0e23e3b0af3153a481c
+SHA1: 8c1de198efec2c10638e2d8e6aef042e9a76383f
+SHA256: 20489fdf73317b706cc49255eba1009349d1dbbe70f5241698cfcac4aaedda4d
 
 Package: orbiton
 Architecture: aarch64
@@ -1502,6 +2090,36 @@ MD5sum: be8dc3b0842682aa223b7311149db59b
 SHA1: 4bcca1e2a4bcd73227679bbdee9181d8f3881e36
 SHA256: c6b14c3afacfcb5c30776fd2a45c8a9100de6ddc86c175ff5a4ce805b27b89a5
 
+Package: postgresql-static
+Architecture: aarch64
+Installed-Size: 1464
+Maintainer: @termux
+Version: 18.7-1
+Homepage: https://www.postgresql.org
+Depends: postgresql (= 18.7-1)
+Description: Static libraries for postgresql
+Filename: ./postgresql-static_18.7-1_aarch64.deb
+Size: 201888
+MD5sum: b75ed569c28f13d44b234431ca1da9ce
+SHA1: 07c68bdd1fa5516893a73f3c74ca3fbc4b816219
+SHA256: 014fc59233285200351b88089c9884c4bba97c8742d98510e2fd675d993fdec8
+
+Package: postgresql
+Architecture: aarch64
+Installed-Size: 30808
+Maintainer: @termux
+Version: 18.7-1
+Homepage: https://www.postgresql.org
+Breaks: postgresql-contrib (<= 10.3-1), postgresql-dev
+Depends: libandroid-execinfo, libandroid-shmem, libicu, libpq, libuuid, libxml2, openssl, readline, zlib
+Replaces: postgresql-contrib (<= 10.3-1), postgresql-dev
+Description: Object-relational SQL database
+Filename: ./postgresql_18.7-1_aarch64.deb
+Size: 6288544
+MD5sum: 2964e966450a2ffea4c5a93d8872ab88
+SHA1: ac543ef5216c9d430be91ee155baea12b6705c34
+SHA256: 7a991c58de74f9ecb3e2ac6a724b7b29648ead0de596b27bdf80be04c3e30154
+
 Package: proton-bridge
 Architecture: aarch64
 Installed-Size: 32168
@@ -1543,6 +2161,34 @@ Size: 9172
 MD5sum: e8504cb222d9074dbbaa23aa0c4ae367
 SHA1: c1a8507286df81543fcd10194f6230ba8cc91342
 SHA256: e564496c30f945ab66a6155100687aa444f39cce8767467c4f5e14fc43d5ed0e
+
+Package: python-numpy-static
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 2.5.5-1
+Homepage: https://numpy.org/
+Depends: python-numpy (= 2.5.5-1)
+Description: Static libraries for python-numpy
+Filename: ./python-numpy-static_2.5.5-1_aarch64.deb
+Size: 46640
+MD5sum: 9ac0c76ad67808c697e0826a89c7a739
+SHA1: 3a13361be42a676a61879ff2043d4be29bf82081
+SHA256: f12b4143b0f7e9ef0d211e22092b01b6e192a1008c69113419f734e5c1c8dff9
+
+Package: python-numpy
+Architecture: aarch64
+Installed-Size: 21312
+Maintainer: @termux
+Version: 2.5.5-1
+Homepage: https://numpy.org/
+Depends: libc++, libopenblas, python
+Description: The fundamental package for scientific computing with Python
+Filename: ./python-numpy_2.5.5-1_aarch64.deb
+Size: 3627804
+MD5sum: 2ae8eddbe801a1297540f36d2b7d3db5
+SHA1: f94be7737c16a62ac0299666de1fd5def4f7ba69
+SHA256: db00128a185c1194fb87c480f91c2cdc8f0821b0cb2866bc374fce6879387cd4
 
 Package: python-onnxruntime
 Architecture: aarch64
@@ -1667,6 +2313,20 @@ Size: 41956
 MD5sum: 1e1f24c5807547d9ca2a6874e05e8ee4
 SHA1: 9d6db37603dd00a5a585c6ab7e193de59bea7f61
 SHA256: 205bd24cb0db5c33f516134e0054dba45823254ca6f725791a58065926446812
+
+Package: stdman
+Architecture: all
+Installed-Size: 23560
+Maintainer: @termux
+Version: 2026.11.13-1
+Homepage: https://github.com/jeaye/stdman
+Depends: mandoc
+Description: Formatted C++23 stdlib man pages (cppreference)
+Filename: ./stdman_2026.11.13-1_all.deb
+Size: 4856376
+MD5sum: 7c1e6a15b065a95590a52243eed6bf20
+SHA1: 4fa9beb2a86af931f5372251fd285d61283e9204
+SHA256: dc5aead1fc3cc1a2bb9317212149e558f2779990236ef10114b4ae1ec466e709
 
 Package: storj-uplink
 Architecture: aarch64
@@ -1834,6 +2494,19 @@ MD5sum: a06b2c6de24328c8709432ccb6da3806
 SHA1: f3ecd6b8c3ac4e452fcc9574621f217ff09aea4d
 SHA256: dd76820406ce5126a516ebe229fde5320cb452fa81779f3b566814e8101043b9
 
+Package: wasmtime
+Architecture: aarch64
+Installed-Size: 41400
+Maintainer: @termux
+Version: 50.0.2-1
+Homepage: https://wasmtime.dev/
+Description: A standalone runtime for WebAssembly
+Filename: ./wasmtime_50.0.2-1_aarch64.deb
+Size: 8421840
+MD5sum: 4c9cb84e0955f1728cf44ab1403c9cee
+SHA1: 51dd230f5e2f11af4e1429cb5c31e06b6128409c
+SHA256: 604ebc64a0d49e190b05486f1f5e1b4129679d2a6d5d6936f3a3320de9173ce2
+
 Package: websocat
 Architecture: aarch64
 Installed-Size: 3548
@@ -1860,3 +2533,31 @@ Size: 13496
 MD5sum: 20b5d6188fef41ca743cd0df0a470279
 SHA1: 58e5edde0aa753b3379d44e5bc4c8d2c7a032340
 SHA256: a92dbd177e7406be8a1f90c03cd97d4f98d545c2b98d0fe6ac2ef12631b6f2f7
+
+Package: yuma123-static
+Architecture: aarch64
+Installed-Size: 14148
+Maintainer: @termux
+Version: 2.15-1
+Homepage: https://yuma123.org/
+Depends: yuma123 (= 2.15-1)
+Description: Static libraries for yuma123
+Filename: ./yuma123-static_2.15-1_aarch64.deb
+Size: 2156008
+MD5sum: 65d7b89d83ed4a82fc66cc6fa25cdf87
+SHA1: 361eb192f4cb55abdb14700b7edbacc1706b4b7d
+SHA256: 27066884cc370815338e6d5f90f8926c3bb49e4aec2fc313358eb0d8bff94e13
+
+Package: yuma123
+Architecture: aarch64
+Installed-Size: 5020
+Maintainer: @termux
+Version: 2.15-1
+Homepage: https://yuma123.org/
+Depends: libssh2, libxml2, openssl, readline
+Description: Provides an opensource YANG API in C
+Filename: ./yuma123_2.15-1_aarch64.deb
+Size: 850144
+MD5sum: 40fb5a7f8e189ff3c5f399ed6ef575dc
+SHA1: fb2541bfffcf6e686ca533160fe17dfe475baceb
+SHA256: 402bba10c373e8dfc7fbdb3a517769b80dfc9214814ce7e4d3dfbb8e32e0e26c
